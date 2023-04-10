@@ -34,19 +34,19 @@
 
 Run on M1 Mac (not sped up!)
 
-# Try it yourself
+To use the CPU quantized GPT4All model checkpoint:
+1. Download the `gpt4all-lora-quantized.bin` file from the [Direct Link](https://the-eye.eu/public/AI/models/nomic-ai/gpt4all/gpt4all-lora-quantized.bin) or the [Torrent-Magnet](https://tinyurl.com/gpt4all-lora-quantized).
+2. Clone the [gpt4all repository](https://github.com/zanussbaum/gpt4all) to your local machine.
+3. Move the downloaded `gpt4all-lora-quantized.bin` file to the `gpt4all/chat` directory in your cloned repository.
+4. Navigate to the `gpt4all/chat` directory in your command prompt or terminal.
+5. Run the appropriate command for your OS:
 
-Here's how to get started with the CPU quantized GPT4All model checkpoint:
+   - M1 Mac/OSX: `./gpt4all-lora-quantized-OSX-m1`
+   - Linux: `./gpt4all-lora-quantized-linux-x86`
+   - Windows (PowerShell): `./gpt4all-lora-quantized-win64.exe`
+   - Intel Mac/OSX: `./gpt4all-lora-quantized-OSX-intel`
 
-1. Download the `gpt4all-lora-quantized.bin` file from [Direct Link](https://the-eye.eu/public/AI/models/nomic-ai/gpt4all/gpt4all-lora-quantized.bin) or [[Torrent-Magnet]](https://tinyurl.com/gpt4all-lora-quantized).
-2. Clone this repository, navigate to `chat`, and place the downloaded file there.
-3. Run the appropriate command for your OS:
-   - M1 Mac/OSX: `cd chat;./gpt4all-lora-quantized-OSX-m1`
-   - Linux: `cd chat;./gpt4all-lora-quantized-linux-x86`
-   - Windows (PowerShell): `cd chat;./gpt4all-lora-quantized-win64.exe`
-   - Intel Mac/OSX: `cd chat;./gpt4all-lora-quantized-OSX-intel`
-
-For custom hardware compilation, see our [llama.cpp](https://github.com/zanussbaum/gpt4all.cpp) fork.
+For more information on custom hardware compilation, see the [llama.cpp](https://github.com/zanussbaum/gpt4all.cpp) fork.
 
 -----------
 Find all compatible models in the GPT4All Ecosystem section.
